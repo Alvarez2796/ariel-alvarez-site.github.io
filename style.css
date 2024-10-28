@@ -1,0 +1,551 @@
+@media all
+and (min-width: 500px) {
+body 
+{
+  line-height: 2em;
+  font-size: 1em;
+  }
+  body
+  {
+   background-color: #fefffe;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header 
+  {
+    background-color: #DBF4F4;
+  }
+
+  header img 
+  {
+   width: 15%;
+   float: left;
+  }
+  
+  header nav 
+  {
+    float: right;
+    text-align: right;
+    margin-top: 3%;
+    font-size: 150%;
+    margin-right: 3%;
+  }
+
+  header div 
+  {
+   clear: both;
+   background-color: #AAD8FF;
+   height: 20px;
+  }
+
+  a:link 
+  {
+    color: #000000;
+    width: 100%;
+    background-color: transparent;
+    text-decoration: none;
+  }
+    a:visited 
+    {
+     color: #000000;
+     background-color: transparent;
+   }
+      a:hover 
+      {
+       color: #044389;
+       background-color: transparent;
+      }
+
+h1, h3{
+  font-size: 250%;
+  font-weight: normal;
+  color: #E89B4F;
+}
+
+h4{
+  font-weight: normal;
+  font-size: 250%;
+  color: #fefffe;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+h2{
+  font-size: 120%;
+  font-weight: normal;
+  color: #E89B4F;
+  padding-bottom: 2%;
+}
+h5{
+  font-size: 250%;
+  color: #044389;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 2%;
+}
+h6{
+  text-align: center;
+  font-weight: normal;
+  font-size: 140%;
+}
+/* This is where Home starts */
+.start
+{
+  background-color: #AAD8FF;
+}
+.start img
+{
+  width: 100%;
+}
+
+.start p
+{
+  display: block;
+  padding: 2%;
+  line-height: 150%;
+  text-align: center;
+  font-size: 170%;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.preview{
+  float: left;
+  justify-content: center;
+  background-color: #fefffe;
+}
+
+article{
+  width: 100%;
+}
+article img{
+  display: block;
+}
+
+article div{
+  clear: both;
+  height: 20px;
+}
+
+.col img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.col p{
+  font-size: 155%;
+  padding-bottom: 2%;
+}
+.col {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+.blog p{
+  font-size: 140%;
+  padding-bottom: 5%;
+}
+.blog {
+  padding-top: 9%;
+  width: 40%;
+  float:left;
+  padding bottom: 2%;
+}
+/* This is where Gallery starts */
+.gallery h3{
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+}
+.images figure {
+  width: 50%;
+  float: left;
+}
+
+figure img{
+  width: 60%;
+  margin: 0 auto;
+}
+
+figcaption{
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+/* This is where Blogs/Tutorial Page starts */
+.tutorial img{
+  display: block;
+  width: 100%;
+}
+
+.tutorial {
+  background-color: #DBF4F4;
+}
+
+.help{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.help p{
+  font-size: 120%;
+  padding: 1%;
+  margin: 0 auto;
+  justify-content: center;
+  width: 80%;
+  line-height: 140%;
+}
+
+.contact {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: white;
+  background-color: #7B9FB8;
+}
+
+.contact p{
+  font-size: 120%;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 250%;
+}
+
+.contact i{
+  color: black;
+}
+
+.log1{
+    padding-top: 2%;
+}
+.blogimg img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.blogimg {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+.log p{
+  font-size: 140%;
+  padding-bottom: 5%;
+}
+.log {
+  width: 40%;
+  float:left;
+}
+
+.log2{
+  clear: left;
+  padding-top: 3%;
+}
+.clear{
+  clear: both;
+}
+
+/* This is where footer starts */
+
+footer{
+  clear: left;
+  width: 100%;
+  background-color: #DBF4F4;
+}
+
+footer p{
+  text-align: right;
+
+}
+
+footer nav{
+  text-decoration: none;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all
+and (max-width: 500px) {
+body 
+{
+  line-height: 2em;
+  font-size: 1em;
+  }
+  body
+  {
+   background-color: #fefffe;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header 
+  {
+    background-color: #DBF4F4;
+  }
+
+  header img 
+  {
+   width: 15%;
+   float: left;
+  }
+  
+  header nav 
+  {
+    float: right;
+    text-align: right;
+    margin-top: 3%;
+    font-size: 150%;
+    margin-right: 3%;
+  }
+
+  header div 
+  {
+   clear: both;
+   background-color: #AAD8FF;
+   height: 20px;
+  }
+
+  a:link 
+  {
+    color: #000000;
+    width: 100%;
+    background-color: transparent;
+    text-decoration: none;
+  }
+    a:visited 
+    {
+     color: #000000;
+     background-color: transparent;
+   }
+      a:hover 
+      {
+       color: #044389;
+       background-color: transparent;
+      }
+
+h1, h3{
+  font-size: 250%;
+  font-weight: normal;
+  color: #E89B4F;
+}
+
+h4{
+  font-weight: normal;
+  font-size: 250%;
+  color: #fefffe;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+h2{
+  font-size: 120%;
+  font-weight: normal;
+  color: #E89B4F;
+  padding-bottom: 2%;
+}
+h5{
+  font-size: 250%;
+  color: #044389;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 2%;
+}
+h6{
+  text-align: center;
+  font-weight: normal;
+  font-size: 140%;
+}
+/* This is where Home starts */
+.start
+{
+  background-color: #AAD8FF;
+}
+.start img
+{
+  width: 100%;
+}
+
+.start p
+{
+  display: block;
+  padding: 2%;
+  line-height: 150%;
+  text-align: center;
+  font-size: 170%;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.preview{
+  float: left;
+  justify-content: center;
+  background-color: #fefffe;
+}
+
+article{
+  width: 100%;
+}
+article img{
+  display: block;
+}
+
+article div{
+  clear: both;
+  height: 20px;
+}
+
+.col img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.col p{
+  font-size: 155%;
+  padding-bottom: 2%;
+}
+.col {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+.blog p{
+  font-size: 140%;
+  padding-bottom: 5%;
+}
+.blog {
+  padding-top: 9%;
+  width: 40%;
+  float:left;
+  padding bottom: 2%;
+}
+/* This is where Gallery starts */
+.gallery h3{
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+}
+.images figure {
+  width: 50%;
+  float: left;
+}
+
+figure img{
+  width: 60%;
+  margin: 0 auto;
+}
+
+figcaption{
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+/* This is where Blogs/Tutorial Page starts */
+.tutorial img{
+  display: block;
+  width: 100%;
+}
+
+.tutorial {
+  background-color: #DBF4F4;
+}
+
+.help{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.help p{
+  font-size: 120%;
+  padding: 1%;
+  margin: 0 auto;
+  justify-content: center;
+  width: 80%;
+  line-height: 140%;
+}
+
+.contact {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: white;
+  background-color: #7B9FB8;
+}
+
+.contact p{
+  font-size: 120%;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 250%;
+}
+
+.contact i{
+  color: black;
+}
+
+.log1{
+    padding-top: 2%;
+}
+.blogimg img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.blogimg {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+.log p{
+  font-size: 140%;
+  padding-bottom: 5%;
+}
+.log {
+  width: 40%;
+  float:left;
+}
+
+.log2{
+  clear: left;
+  padding-top: 3%;
+}
+.clear{
+  clear: both;
+}
+
+/* This is where footer starts */
+
+footer{
+  clear: left;
+  width: 100%;
+  background-color: #DBF4F4;
+}
+
+footer p{
+  text-align: right;
+
+}
+
+footer nav{
+  text-decoration: none;
+  margin: 0 auto;
+  justify-content: center;
+}
+}
+
+
+}
